@@ -2,6 +2,7 @@
 !pip install -q faster-whisper
 !pip install -q pytube
 !pip install -q pydub
+!apt install libcublas11 -y -q
 !sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/youtube-dl
 !sudo chmod a+rx /usr/local/bin/youtube-dl
 !youtube-dl --version
