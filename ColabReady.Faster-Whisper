@@ -68,6 +68,7 @@ model = WhisperModel(model_size, device="cuda", compute_type="float16")
 url = input("Type the YouTube link: ")
 os.environ['URL'] = url
 !youtube-dl  -o "audio.%(ext)s" -f 140  $URL
+!youtube-dl --get-title $URL
 filename = "audio.m4a"
 
 segments, info = model.transcribe(filename, beam_size=5)
