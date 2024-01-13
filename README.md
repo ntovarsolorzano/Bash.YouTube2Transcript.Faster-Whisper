@@ -1,0 +1,1 @@
+# Bash.YouTube2Transcript.Faster-Whisper
