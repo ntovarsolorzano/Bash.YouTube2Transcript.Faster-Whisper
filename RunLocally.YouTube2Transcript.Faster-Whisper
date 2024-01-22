@@ -194,3 +194,4 @@ if minutes > 0:
     duration_str += f"{minutes} min, "
 duration_str += f"{int(seconds)} seconds"
 
+print(duration_str)
